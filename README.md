@@ -1,7 +1,5 @@
 ##README FILE
 
-<<<<<<< HEAD
-
 ###Project  Python - 
 
 
