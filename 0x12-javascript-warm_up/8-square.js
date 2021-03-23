@@ -1,17 +1,15 @@
 #!/usr/bin/node
-
-let num = Number(process.argv[2]);
-if (isNaN(num)) {
+let square = '';
+if (isNaN(process.argv[2])) {
   console.log('Missing size');
-}
-let i = 0; let j = 0;
-while (i < num) {
-  j = 0;
-  let string = '';
-  while (j < num) {
-    string += 'X';
-    j++;
+} else {
+  for (let x = 0; x < parseInt(process.argv[2]); x++) {
+    for (let y = 0; y < parseInt(process.argv[2]); y++) {
+      square += 'X';
+    }
+    if (x < parseInt(process.argv[2]) - 1) {
+      square += '\n';
+    }
   }
-  console.log(string);
-  i++;
+  console.log(square);
 }
