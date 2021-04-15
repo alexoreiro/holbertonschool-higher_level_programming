@@ -1,13 +1,15 @@
 #!/usr/bin/python3
+""" my_int"""
+
 
 class MyInt(int):
-   
-    def __init__(self, value):
-       
-        self.value = value
+    """Class MyInt"""
+    def __init__(self, xd):
+        """iniciar"""
+        self.xd = xd
 
-    def __eq__(self, value):
-        return self.value != value
+    def __eq__(self, xd):
+        return self.xd != xd
 
-    def __ne__(self, value):
-        return self.value == value
+    def __ne__(self, xd):
+        return self.xd == xd
