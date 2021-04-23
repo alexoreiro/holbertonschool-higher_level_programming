@@ -1,31 +1,59 @@
-##README FILE
+# Project 0x09. Python  Everything is object.
 
-##Project 0x09. Python  Everything is object.
+## Learning objectives:
 
-Pre-requirements 
+Why Python programming is awesome
 
-		 Allowed editors: vi, vim, emacs
+What is an object
 
-		 All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+What is the difference between a class and an object or instance
 
-		 All your files should end with a new line
+What is the difference between immutable object and mutable object
 
-		 The first line of all your files should be exactly #!/usr/bin/python3
+What is a reference
 
-		 A README.md file, at the root of the folder of the project, is mandatory
+What is an assignment
 
-		 Your code should use the PEP 8 style (version 1.7.*)
+What is an alias
 
-		 All your files must be executable
+How to know if two variables are identical
 
-		 The length of your files will be tested using 
+How to know if two variables are linked to the same object
+
+How to display the variable identifier (which is the memory address in the CPython implementation)
+
+What is mutable and immutable
+
+What are the built-in mutable types
+
+What are the built-in immutable types
+
+How does Python pass variables to functions
+
+## Requirements 
+
+Allowed editors: vi, vim, emacs
+
+All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+
+All your files should end with a new line
+
+The first line of all your files should be exactly #!/usr/bin/python3
+
+A README.md file, at the root of the folder of the project, is mandatory
+
+Your code should use the PEP 8 style (version 1.7.*)
+
+All your files must be executable
+
+The length of your files will be tested using 
 
 
-##Versioned 
+## Versioned 
 
-	    Compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+Compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
 
-##Authors 
+## Authors 
 
 
 - [Alexis Oreiro](https://github.com/alexoreiro)
