@@ -1,9 +1,22 @@
-## README FILE
+# Project 0x07. Python - Test-driven development.
 
+## Learning objectives:
 
-## Project 0x07. Python - Test-driven development.
+Why Python programming is awesome
 
-Pre-requirements 
+Whats an interactive test
+
+Why tests are important
+
+How to write Docstrings to create tests
+
+How to write documentation for each module and function
+
+What are the basic option flags to create tests
+
+How to find edge cases
+
+## Pre-requirements 
 
 Python Scripts
 
@@ -42,9 +55,11 @@ All your functions should have a documentation (python3 -c 'print(__import__("my
 A documentation is not a simple word, its a real sentence explaining whats the purpose of the module, class or method (the length of it will be verified)
 
 ## Versioned 
+
 Compiled on Ubuntu 14.04 LTS using gcc 4.8.4.
 
 ## Authors 
+
 - [Alexis Oreiro](https://github.com/alexoreiro)
 
 -For [Holberton School](https://www.holbertonschool.com/uy)
