@@ -1,17 +1,18 @@
 #!/usr/bin/python3
+"""Module Documentation"""
 
-# Class Student
 
 class Student:
-    # Defines class Student 
+    """Student Class"""
+
     def __init__(self, first_name, last_name, age):
-        # initiates attributes for student instance 
-        self.first_name = first_name
-        self.last_name = last_name
+        """Constructor method"""
         self.age = age
+        self.last_name = last_name
+        self.first_name = first_name
 
     def to_json(self, attrs=None):
-        # json function
+        """Json function"""
         if attrs is not None:
             new_dict = {}
             for obj in attrs:
