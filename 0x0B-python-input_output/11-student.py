@@ -1,32 +1,32 @@
 #!/usr/bin/python3
-"""
-Class Student
-"""
+"""Module Documentation"""
 
 
 class Student:
-    """ Defines class Student """
+    """Student Class"""
+
     def __init__(self, first_name, last_name, age):
-        """ initiates attributes for student instance """
-        self.first_name = first_name
-        self.last_name = last_name
+        """Constructor method"""
         self.age = age
+        self.last_name = last_name
+        self.first_name = first_name
 
     def to_json(self, attrs=None):
-        """ retrieves a dictionary representation of a student instance """
-        all_string = True
-        if isinstance(attrs, list):
-            for elem in attrs:
-                if not isinstance(elem, str):
-                    all_string = False
-                    break
+        """Json function"""
+        if attrs is not None:
+            new_dict = {}
+            for obj in attrs:
+                if type(obj) != str:
+                    return self.__dict__
+            for obj in attrs:
+                if obj in self.__dict__:
+                    new_dict[obj] = self.__dict__[obj]
+            return new_dict
         else:
-            all_string = False
+            return self.__dict__
 
-        if all_string is True:
-            stu_dict = {}
-            for elem in attrs:
-                if elem in self.__dict__:
-                    stu_dict[elem] = self.__dict__[elem]
-            return stu_dict
-        return self.__dict__
+    def reload_from_json(self, json):
+        """Json function"""
+        for key, value in json.items():
+            if key in self.__dict__:
+                self.__dict__[key] = value
