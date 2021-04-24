@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+"""Append After"""
 
-# Append After
+
 def append_after(filename="", search_string="", new_string=""):
-
-    # Inserts a line of text to a file
+    """Inserts a line of text to a file"""
     inputfile = open(filename, 'r').readlines()
     with open(filename, 'w') as write_file:
         for line in inputfile:
