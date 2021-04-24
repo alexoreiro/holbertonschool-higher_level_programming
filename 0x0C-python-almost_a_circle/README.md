@@ -1,9 +1,28 @@
-## README FILE
-
 ## Project 0x0C. Python - Almost a circle.
 
+## Learning objectives:
 
-Pre-requirements 
+Import
+
+Exceptions
+
+Class
+
+Private attribute
+
+Getter/Setter
+
+Class method
+
+Static method
+
+Inheritance
+
+Unittest
+
+Read/Write file
+
+## Requirements 
 
 Python Scripts
 
