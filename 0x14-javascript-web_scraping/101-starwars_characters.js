@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // retrieves all character names in SW film
 const request = require('request');
-const FILM_URL = `http://swapi-api.hbtn.io/api/films/${process.argv[2]}`;
+const FILM_URL = `https://swapi-api.hbtn.io/api/films/${process.argv[2]}`;
 let characters;
 const dict = {};
 request(FILM_URL, function (error, response, body) {
