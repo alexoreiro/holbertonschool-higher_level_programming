@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // makes get request for SW movie id
 const request = require('request');
-request('https://swapi-api.hbtn.io/api/films/:id'${process.argv[2]}, function (error, response, body) {
+request('https://swapi-api.hbtn.io/api/films/'${process.argv[2]}, function (error, response, body) {
   error && console.log(error);
   console.log(JSON.parse(body).title);
 });
